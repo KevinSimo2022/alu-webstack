@@ -44,5 +44,5 @@ frontend haproxynode
 backend backendnodes
         balance roundrobin
         option forwardfor
-        server 4826-web-01 54.91.215.205:80 check
-        server 4826-web-02 54.147.20.162:80 check
+        server 5641-web-01 54.208.99.32:80 check
+        server 5641-web-02 54.242.6.128:80 check
